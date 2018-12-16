@@ -1,6 +1,9 @@
 {
   "name": "michelle-scutti",
   "version": "0.1.0",
+   "engines": {
+    "node": "11.0.0"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.6.0",
