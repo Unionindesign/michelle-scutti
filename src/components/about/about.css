@@ -1,0 +1,29 @@
+.about {
+  padding: 3% 7% 0% 7%;
+  margin-bottom: 60px;
+  /* display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row; */
+}
+
+.iconImg {
+  border-radius: 50%;
+  width: 125px;
+  /* border: 2px solid #afafaf; */
+}
+
+/* .aboutBox {
+  width: 100%;
+} */
+
+/* @media screen and (max-width: 480px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+  .aboutBox {
+    width: 100%;
+    margin: 5%;
+  }
+} */

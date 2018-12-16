@@ -1,0 +1,61 @@
+.headerNav {
+  background-color: #7a484f;
+  text-align: center;
+}
+
+.headerLogo {
+  width: 250px;
+  padding-top: 20px;
+}
+
+.subNav {
+  height: 40px;
+  background-color: #00695c; /* teal lighten-4 00695c Rose leaf from logo -- #3a4924 */
+  /* background-image: url("https://pre00.deviantart.net/2e19/th/pre/i/2011/334/6/e/seamless_beach_sand_texture_by_hhh316-d4hr45u.jpg"); */
+}
+
+.subNavBar {
+  float: right;
+  margin: 0px auto 0px auto;
+}
+
+.subNavLink {
+  margin: 10px auto 0px auto;
+  font-family: "Arvo", serif;
+  color: #fff;
+}
+
+.subNavLink a {
+  color: #fff;
+}
+.subNavLink a:hover {
+  color: #afafaf;
+}
+
+.subNavContact {
+  color: #fff;
+  font-family: "Arvo", serif;
+  display: none;
+}
+
+.menuButton {
+  float: right;
+}
+
+.sideNavImg {
+  width: 100%;
+}
+@media only screen and (max-width: 850px) {
+  .subNavLink {
+    display: none;
+  }
+  .subNavContact {
+    display: inherit;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .subNavContact {
+    font-size: 0.8em;
+  }
+}

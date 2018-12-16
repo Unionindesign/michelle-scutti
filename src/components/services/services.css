@@ -1,0 +1,88 @@
+.services {
+  margin-bottom: -20px;
+}
+
+.serviceHdr {
+  font-family: "Arvo", serif;
+  color: #afafaf;
+  font-size: 1.5em;
+  margin-bottom: -1.5%;
+}
+.tabContent {
+  padding: 2% 6% 2% 6%;
+}
+.serviceHero {
+  background-color: #b2dfdb;
+  padding: 10%;
+  border-radius: 7px;
+}
+.serviceHero p {
+  color: white;
+  font-size: 1.2em;
+  font-family: "Arvo", serif;
+}
+
+.serviceCirImg {
+  border-radius: 50%;
+  width: 70%;
+}
+
+.tabImg {
+  width: 70%;
+  border-radius: 7px;
+  position: relative;
+  /* float: right; */
+}
+
+.yogaButtonsBox {
+  margin: 1%;
+}
+
+.yogaButton {
+  margin: 5%;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: "Arvo", serif;
+}
+
+a:hover {
+  color: #afafaf;
+}
+
+.contactGradient {
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  padding: 3%;
+}
+
+@media only screen and (max-width: 900px) {
+  .tabImg {
+    width: 100%;
+  }
+  .serviceCirImg {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tabImg {
+    width: 100%;
+  }
+  /* .yogaButton {
+    float: left;
+  } */
+}
+
+@media only screen and (max-width: 450px) {
+  .contactGradient {
+    padding: 5%;
+  }
+  .serviceCirImg {
+    width: 50%;
+  }
+
+  .yogaButton {
+    margin: 0px;
+    padding: 2%;
+  }
+}

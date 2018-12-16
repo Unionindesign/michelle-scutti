@@ -1,0 +1,57 @@
+.footer {
+  padding: 0%;
+  color: #fff;
+}
+
+.footerTop {
+  background-color: #7a484f; /*teal accent-3 #1de9b6 -- #009688 teal -- business card back*/
+  margin-bottom: -2%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.footerTop h4 {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.footerLogo {
+  padding: 25px 30px 5px 30px;
+  width: 85%;
+}
+
+.footerLinks {
+  font-family: "Arvo", serif;
+  font-size: 1.2em;
+  vertical-align: baseline;
+  text-align: left;
+}
+.footerLinks li {
+  padding-left: 50px;
+}
+
+.footerBtm {
+  background-color: #00695c; /*#00695c teal darken-3 Rose Leaf -- #3a4924 */
+  height: 60px;
+}
+
+.footerBtm p {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerTop {
+    margin-bottom: -5%;
+    padding-bottom: 1%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .footerTop {
+    margin-bottom: -5%;
+    padding-bottom: 1%;
+  }
+  .footerTop li {
+    font-size: 1.1em;
+    vertical-align: baseline;
+  }
+}

@@ -1,0 +1,107 @@
+.testimonialParallax {
+  margin-bottom: 60px;
+}
+
+/* .testimonialHeader {
+  top: -700px;
+} */
+
+.parallax-container {
+  height: 550px;
+}
+
+.parallax-content {
+  z-index: 10;
+  position: absolute;
+}
+.parallax-content-box {
+  width: 750px;
+  margin: 10% 30% 10% 30%;
+  background-color: #585858;
+  border-radius: 7px;
+  opacity: 0.7;
+}
+.testimonialText {
+  color: white;
+  padding: 5%;
+  font-family: "Arvo", serif;
+  width: 100%;
+}
+
+.testimonialText span {
+  font-style: italic;
+  font-size: 0.8em;
+}
+@media only screen and (max-width: 1000px) {
+  .parallax-content-box {
+    width: 600px;
+    margin: 10% 30% 10% 30%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .parallax-content-box {
+    width: 500px;
+    margin: 10% 30% 10% 30%;
+  }
+  .testimonialText {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .parallax-content-box {
+    width: 400px;
+    margin: 10% 30% 10% 30%;
+  }
+  .testimonialText {
+    font-size: 1.35em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-content-box {
+    width: 400px;
+    margin: 10% 30% 10% 30%;
+  }
+  .testimonialText {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .parallax-content-box {
+    width: 350px;
+    margin: 5%;
+  }
+  .testimonialText {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .parallax-content-box {
+    width: 325px;
+    margin: 20% 5% 10% 5%;
+  }
+  .testimonialText {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .parallax-content-box {
+    width: 290px;
+    margin: 20% 5% 10% 5%;
+  }
+  .testimonialText {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .parallax-content-box {
+    width: 250px;
+  }
+  .testimonialText {
+    font-size: 1.2em;
+  }
+}
