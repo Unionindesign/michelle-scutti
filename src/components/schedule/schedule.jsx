@@ -28,15 +28,16 @@ class Schedule extends Component {
                   />
                   <h6>Hot Power Fusion</h6>
                   <p className="scheduleCardSpan">
+                    Mondays 7pm @ Cherry Hills
+                    <br />
+                    5004 E Hampden Ave, Denver, CO 80222
+                  </p>
+                  <p className="scheduleCardSpan">
                     Wednesdays 8pm @ Highlands
                     <br />
                     3390 W 32nd Ave, Denver, CO 80211
                   </p>
-                  <p className="scheduleCardSpan">
-                    Saturdays 2pm @ Rino
-                    <br />
-                    3390 W 32nd Ave, Denver, CO 80211
-                  </p>
+
                   <img
                     className="scheduleCardImg"
                     src={LiveMusicYoga}
@@ -48,9 +49,9 @@ class Schedule extends Component {
                       className="cardFooterLink"
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.corepoweryoga.com/yoga-studios/colorado/denver/rinoindustry"
+                      href="https://www.corepoweryoga.com/yoga-studios/colorado/denver/cherry-hills"
                     >
-                      Rino Studio
+                      Cherry Hills Studio
                     </a>
                     <a
                       className="cardFooterLink"
