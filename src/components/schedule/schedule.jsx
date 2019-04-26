@@ -26,16 +26,22 @@ class Schedule extends Component {
                     src={Corepower}
                     alt="cpy logo"
                   />
-                  <h6>Hot Power Fusion</h6>
+                  {/* <h4 className="scheduleTitle">Class Schedule</h4> */}
+
                   <p className="scheduleCardSpan">
-                    Mondays 7pm @ Cherry Hills
+                    <strong>Hot Power Fusion</strong>
                     <br />
-                    5004 E Hampden Ave, Denver, CO 80222
+                    Wednesdays 8pm @ Belmar
+                    <br />
+                    7349 W. Alaska Drive Lakewood, CO 80226
                   </p>
+
                   <p className="scheduleCardSpan">
-                    Wednesdays 8pm @ Highlands
+                    <strong>C2 Power Vinyasa</strong>
                     <br />
-                    3390 W 32nd Ave, Denver, CO 80211
+                    Saturdays 12 noon @ Littleton
+                    <br />
+                    2825 W. Belleview Ave, Littleton, CO 80123
                   </p>
 
                   <img
@@ -49,17 +55,17 @@ class Schedule extends Component {
                       className="cardFooterLink"
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.corepoweryoga.com/yoga-studios/colorado/denver/cherry-hills"
+                      href="https://www.corepoweryoga.com/yoga-studios/colorado/lakewood/belmar"
                     >
-                      Cherry Hills Studio
+                      Belmar Studio
                     </a>
                     <a
                       className="cardFooterLink"
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.corepoweryoga.com/yoga-studios/colorado/denver/highlands"
+                      href="https://www.corepoweryoga.com/yoga-studios/colorado/littleton/littleton"
                     >
-                      Highlands Studio
+                      Littleton Studio
                     </a>
                   </div>
                 </div>

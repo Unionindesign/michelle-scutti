@@ -1,6 +1,9 @@
 .schedule {
   margin-bottom: 60px;
 }
+.scheduleTitle {
+  font-size: 1.5em;
+}
 
 .scheduleContainer {
   background-image: url("../../images/cpyredrocks.png");
@@ -30,6 +33,10 @@
 .scheduleCardSpan {
   color: #000;
   font-size: 0.85em;
+}
+.scheduleCardSpan strong {
+  color: #585858;
+  font-size: 1.5em;
 }
 
 .cardFooter {
