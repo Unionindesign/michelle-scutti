@@ -9,6 +9,7 @@ import gal1 from "../../images/gal-headStand.png";
 import gal2 from "../../images/gal-redRocksSquare.png";
 import gal3 from "../../images/gal-revBigToe.png";
 import gal4 from "../../images/gal-treePool.png";
+// import FixedFirmWaves from "../../images/landing-fixedFirmWaves.png";
 
 class Gallery extends Component {
   render() {

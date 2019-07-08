@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./about.css";
 
 //React Materiliaze
-import { Row, Col, Icon } from "react-materialize";
+import { Row, Col } from "react-materialize";
 
 //images
 import omIcon from "../../images/iconOm.png";

@@ -5,7 +5,7 @@ import "./schedule.css";
 import { Row, Col } from "react-materialize";
 
 //images
-import Corepower from "../../images/cpylogo.png";
+//import Corepower from "../../images/cpylogo.png";
 import Yogapod from "../../images/yogapod-logo.jpg";
 //import LiveMusicYoga from "../../images/liveMusicYoga.png";
 // import ScheduleBackground from "../../images/cpyredrocks.png";
@@ -22,16 +22,17 @@ class Schedule extends Component {
             <Row>
               {" "}
               <Col l={5} s={12}>
+                {/*                 
                 {/* =========
-                  COREPOWER
-                ============= */}
+                  COREPOWER - HIDDEN
+                ============= 
                 <div className="scheduleCard">
                   <img
                     className="scheduleCardLogoImg"
                     src={Corepower}
                     alt="cpy logo"
                   />
-                  {/* <h4 className="scheduleTitle">Class Schedule</h4> */}
+                  
 
                   <p className="scheduleCardSpan">
                     <strong>Hot Power Fusion</strong>
@@ -68,7 +69,8 @@ class Schedule extends Component {
                       Littleton Studio
                     </a>
                   </div>
-                </div>
+                </div> */}
+
                 {/* =========
                   YOGAPOD
                 ============= */}
@@ -108,7 +110,7 @@ class Schedule extends Component {
                     title="Michelle's Studios"
                     src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7"
                     width="100%"
-                    height="590"
+                    height="450"
                   />
                 </div>
               </Col>

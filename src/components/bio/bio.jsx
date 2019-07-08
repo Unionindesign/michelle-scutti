@@ -5,7 +5,7 @@ import "./bio.css";
 import { Row, Col, Parallax } from "react-materialize";
 
 //images
-import bioImg from "../../images/bio-treeGrn.png";
+// import bioImg from "../../images/bio-treeGrn.png";
 import bioCir from "../../images/bio-sqSmile.png";
 import bioParallax from "../../images/bio-beachParallax.png";
 
@@ -17,7 +17,8 @@ class Bio extends Component {
           {/* <div className="parallax-container"> */}
           <section id="bioSection">
             <div className="parallaxContentBio">
-              <Col l={6} m={12}>
+              {/* <Col l={6} m={12}> */}
+              <Col m={12}>
                 <div className="bioText">
                   <img className="bioCirImg" src={bioCir} alt="Tree" />
                   <h4 className="sectionTitle">Bio</h4>
@@ -51,13 +52,13 @@ class Bio extends Component {
                   </p>
                 </div>
               </Col>
-              <Col l={6} m={12}>
+              {/* <Col l={6} m={12}>
                 <img
                   className="bioImg"
                   src={bioImg}
                   alt="Michelle doing Tree Pose in Green Bikini"
                 />
-              </Col>
+              </Col> */}
             </div>
             <Parallax imageSrc={bioParallax} />
           </section>
