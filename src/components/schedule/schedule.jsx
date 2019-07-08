@@ -105,7 +105,7 @@ class Schedule extends Component {
                 </div>
               </Col>
               <Col l={7} s={12}>
-                <div className="scheduleCard">
+                <div className="scheduleCard" style={{ marginTop: "-13px" }}>
                   <iframe
                     title="Michelle's Studios"
                     src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7"
