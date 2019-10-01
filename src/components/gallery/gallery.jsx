@@ -9,7 +9,8 @@ import gal1 from "../../images/gal-headStand.png";
 import gal2 from "../../images/gal-redRocksSquare.png";
 import gal3 from "../../images/gal-revBigToe.png";
 import gal4 from "../../images/gal-treePool.png";
-// import FixedFirmWaves from "../../images/landing-fixedFirmWaves.png";
+import gal5 from "../../images/gal-malaHands.png";
+import gal6 from "../../images/landing-fixedFirmWaves.png";
 
 class Gallery extends Component {
   render() {
@@ -46,6 +47,22 @@ class Gallery extends Component {
                 <MediaBox
                   src={gal4}
                   caption="Tree Pose by the pool at Anamaya Resort, Montezuma Costa Rica"
+                  className="galImg"
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col s={6} l={3}>
+                <MediaBox
+                  src={gal5}
+                  caption="Mala Bead Prayers"
+                  className="galImg"
+                />
+              </Col>
+              <Col s={6} l={3}>
+                <MediaBox
+                  src={gal6}
+                  caption="Supta Vidrasana, by the beach in Montezuma Costa Rica"
                   className="galImg"
                 />
               </Col>

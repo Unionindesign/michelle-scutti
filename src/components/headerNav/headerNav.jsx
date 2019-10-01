@@ -93,7 +93,7 @@ class HeaderNav extends Component {
                     />
 
                     <SideNavItem href="#bioSection" icon="account_circle">
-                      Bio Section
+                      Bio
                     </SideNavItem>
                     <SideNavItem href="#scheduleSection" icon="event">
                       Yoga Class Schedule
