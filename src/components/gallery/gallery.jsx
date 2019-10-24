@@ -10,7 +10,8 @@ import gal2 from "../../images/gal-redRocksSquare.png";
 import gal3 from "../../images/gal-revBigToe.png";
 import gal4 from "../../images/gal-treePool.png";
 import gal5 from "../../images/gal-malaHands.png";
-import gal6 from "../../images/landing-fixedFirmWaves.png";
+// import gal6 from "../../images/landing-fixedFirmWaves.png";
+import gal7 from "../../images/landing-seatedSmile.png";
 
 class Gallery extends Component {
   render() {
@@ -59,10 +60,17 @@ class Gallery extends Component {
                   className="galImg"
                 />
               </Col>
-              <Col s={6} l={3}>
+              {/* <Col s={6} l={3}>
                 <MediaBox
                   src={gal6}
                   caption="Supta Vidrasana, by the beach in Montezuma Costa Rica"
+                  className="galImg"
+                />
+              </Col> */}
+              <Col s={6} l={3}>
+                <MediaBox
+                  src={gal7}
+                  caption="Portrait of Michelle"
                   className="galImg"
                 />
               </Col>

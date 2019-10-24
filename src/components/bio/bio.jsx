@@ -8,6 +8,7 @@ import { Row, Col, Parallax } from "react-materialize";
 // import bioImg from "../../images/bio-treeGrn.png";
 import bioCir from "../../images/bio-sqSmile.png";
 import bioParallax from "../../images/bio-beachParallax.png";
+//import Sitting from "../../images/landing-seatedSmile.png";
 
 class Bio extends Component {
   render() {
