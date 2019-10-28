@@ -67,13 +67,13 @@ class Gallery extends Component {
                   className="galImg"
                 />
               </Col> */}
-              <Col s={6} l={3}>
+              {/* <Col s={6} l={3}>
                 <MediaBox
                   src={gal7}
                   caption="Portrait of Michelle"
                   className="galImg"
                 />
-              </Col>
+              </Col> */}
             </Row>
           </section>
         </Row>
