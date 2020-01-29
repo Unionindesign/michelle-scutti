@@ -10,8 +10,8 @@ import {
   Tabs,
   Tab,
   Collapsible,
-  CollapsibleItem,
-  Icon
+  CollapsibleItem
+  // Icon
 } from "react-materialize";
 
 //images
@@ -68,7 +68,11 @@ class Services extends Component {
                       <Col s={3}>
                         <Modal
                           header="Vinyasa"
-                          trigger={<a className="yogaButton">Vinyasa</a>}
+                          trigger={
+                            <a className="yogaButton" href="#">
+                              Vinyasa
+                            </a>
+                          }
                         >
                           <p>
                             Vinyasa yoga teaches us to cultivate an awareness
@@ -86,7 +90,11 @@ class Services extends Component {
                       <Col s={3}>
                         <Modal
                           header="Hot"
-                          trigger={<a className="yogaButton">Hot</a>}
+                          trigger={
+                            <a className="yogaButton" href="#">
+                              Hot
+                            </a>
+                          }
                         >
                           <p>
                             Traditional Hot Yoga is a 90 minutes series of 26
@@ -104,7 +112,11 @@ class Services extends Component {
                       <Col s={3}>
                         <Modal
                           header="Yin"
-                          trigger={<a className="yogaButton">Yin</a>}
+                          trigger={
+                            <a className="yogaButton" href="#">
+                              Yin
+                            </a>
+                          }
                         >
                           <p>
                             This practice is designed to stretch the connective
@@ -120,7 +132,11 @@ class Services extends Component {
                       <Col s={3}>
                         <Modal
                           header="Nidra"
-                          trigger={<a className="yogaButton">Nidra</a>}
+                          trigger={
+                            <a className="yogaButton" href="#">
+                              Nidra
+                            </a>
+                          }
                         >
                           <p>
                             Yoga nidra (Sanskrit: योग निद्रा) or yogic sleep) is

@@ -44,8 +44,8 @@ class FooterBottom extends Component {
               &copy; Wild Rose Yoga 2018 | Website by
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="http://unionindesign.com"
-                rel="nopener noreferrer"
               >
                 {" "}
                 Union in Design

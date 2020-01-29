@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import "./topLanding.css";
 
 //React Materiliaze
@@ -15,27 +15,42 @@ import TreePose from "../../images/bio-treeGrn.png";
 
 // import PigeonBack from "../../images/landing-pigeonBack.png";
 
-const TopLanding = () => {
-  return (
-    <div className="topLanding">
-      <Slider fullscreen className="fullScreen" style={{ height: "100vh" }}>
-        <Slide
-          src={FixedFirmWaves}
-          //style={{ width: "100%" }}
-          title="Wild Rose Yoga"
-        >
-          Offering public and private classes
-        </Slide>
-        <Slide src={CostaTrees} title="Travel.">
-          Make time to see the world
-        </Slide>
-        <Slide src={TreePose} title="Massage.">
-          Specializing in Thai Yoga Massage
-        </Slide>
-      </Slider>
-      `
-    </div>
-  );
-};
-
+class TopLanding extends Component {
+  // state = {
+  //   width: window.innerWidth
+  // };
+  // componentDidMount() {
+  //   console.log(
+  //     "Window width: ",
+  //     window.innerWidth,
+  //     "state: ",
+  //     this.state.width
+  //   );
+  //   if (this.state.width < 640) {
+  //     this.setState({ width: window.innerWidth / 2 });
+  //   }
+  // }
+  render() {
+    return (
+      <div className="topLanding">
+        <Slider fullscreen className="fullScreen" style={{ height: "100vh" }}>
+          <Slide
+            src={FixedFirmWaves}
+            // width={this.state.width / 2}
+            title="Wild Rose Yoga"
+          >
+            Offering public and private classes
+          </Slide>
+          <Slide src={CostaTrees} title="Travel.">
+            Make time to see the world
+          </Slide>
+          <Slide src={TreePose} title="Massage.">
+            Specializing in Thai Yoga Massage
+          </Slide>
+        </Slider>
+        `
+      </div>
+    );
+  }
+}
 export default TopLanding;
