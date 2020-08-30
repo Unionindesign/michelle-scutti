@@ -74,13 +74,20 @@ const Schedule = () => {
                 YOGAPOD
               ============= */}
               <div className="scheduleCard">
-                <img
+                <p className="scheduleCardSpan">
+                  <strong>Private Classes</strong>
+                  <br />
+                  Available in Orange County, CA
+                  <br /> <br />
+                </p>
+
+                 {/* <img
                   className="scheduleCardLogoImg"
                   style={{ margin: "-20px auto -20px auto" }}
                   src={Yogapod}
                   alt="cpy logo"
                 />
-                {/* <h4 className="scheduleTitle">Class Schedule</h4> */}
+               <h4 className="scheduleTitle">Class Schedule</h4> 
 
                 <p className="scheduleCardSpan">
                   <strong>Hot Yoga</strong>
@@ -110,8 +117,8 @@ const Schedule = () => {
                   >
                     Studio Info
                   </a>
-                </div>
-              </div>
+                </div> */}
+              </div> 
             </Col>
             <Col l={7} s={12}>
               <div className="scheduleCard" style={{ marginTop: "-13px" }}>
