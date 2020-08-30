@@ -124,7 +124,7 @@ const Schedule = () => {
               <div className="scheduleCard" style={{ marginTop: "-13px" }}>
                 <iframe
                   title="Michelle's Studios"
-                  src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7"
+                  src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
                   height="450"
                 />
