@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import "./schedule.css";
 
 //React Materiliaze
 import { Row, Col } from "react-materialize";
 
 //images
-//import Corepower from "../../images/cpylogo.png";
-import Yogapod from "../../images/yogapod-logo.jpg";
+import Corepower from "../../images/cpylogo.png";
+// import Yogapod from "../../images/yogapod-logo.jpg";
 //import LiveMusicYoga from "../../images/liveMusicYoga.png";
 // import ScheduleBackground from "../../images/cpyredrocks.png";
 
@@ -21,10 +21,10 @@ const Schedule = () => {
           <Row>
             {" "}
             <Col l={5} s={12}>
-              {/*                 
+                              
               {/* =========
                 COREPOWER - HIDDEN
-              ============= 
+              ============= */} 
               <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
@@ -36,17 +36,17 @@ const Schedule = () => {
                 <p className="scheduleCardSpan">
                   <strong>Hot Power Fusion</strong>
                   <br />
-                  Wednesdays 8pm @ Belmar
+                  Tuesday 9:00pm Candlelight class
                   <br />
-                  7349 W. Alaska Drive Lakewood, CO 80226
+                  7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
 
                 <p className="scheduleCardSpan">
-                  <strong>C2 Power Vinyasa</strong>
+                  <strong>Hot Power Fusion</strong>
                   <br />
-                  Saturdays 12 noon @ Littleton
+                  Friday 6:30am
                   <br />
-                  2825 W. Belleview Ave, Littleton, CO 80123
+                  7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
 
                 <div className="cardFooter">
@@ -55,20 +55,20 @@ const Schedule = () => {
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.corepoweryoga.com/yoga-studios/colorado/lakewood/belmar"
+                    href="https://www.corepoweryoga.com/yoga-studios/CA/Huntington%20Beach/huntington-beach"
                   >
-                    Belmar Studio
+                    Huntington Beach Studio Info
                   </a>
-                  <a
+                  {/* <a
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.corepoweryoga.com/yoga-studios/colorado/littleton/littleton"
                   >
                     Littleton Studio
-                  </a>
+                  </a> */}
                 </div>
-              </div> */}
+              </div> 
 
               {/* =========
                 YOGAPOD
@@ -81,7 +81,7 @@ const Schedule = () => {
                   <br /> <br />
                 </p>
 
-                 {/* <img
+                {/* <img
                   className="scheduleCardLogoImg"
                   style={{ margin: "-20px auto -20px auto" }}
                   src={Yogapod}
@@ -117,16 +117,16 @@ const Schedule = () => {
                   >
                     Studio Info
                   </a>
-                </div> */}
-              </div> 
+                </div>  */}
+            </div>
             </Col>
             <Col l={7} s={12}>
-              <div className="scheduleCard" style={{ marginTop: "-13px" }}>
+              <div className="scheduleCard" style={{ marginTop: "60px" }}>
                 <iframe
                   title="Michelle's Studios"
                   src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
-                  height="450"
+                  height="475"
                 />
               </div>
             </Col>
