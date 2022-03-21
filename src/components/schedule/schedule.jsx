@@ -36,18 +36,25 @@ const Schedule = () => {
                 <p className="scheduleCardSpan">
                   <strong>Hot Power Fusion</strong>
                   <br />
-                  Tuesday 9:00pm Candlelight class
+                  Tuesday 5:30pm, 9:00pm (Candlelight class)
+                  <br />
+                  Thursday 5:30pm 
+                  <br />
+                  Friday 6:30am
+                  <br />
+                  Saturday 7:00am, 11:30am
+                  <br />
                   <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
 
-                <p className="scheduleCardSpan">
+                {/* <p className="scheduleCardSpan">
                   <strong>Hot Power Fusion</strong>
                   <br />
                   Friday 6:30am
                   <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
-                </p>
+                </p> */}
 
                 <div className="cardFooter">
                   <hr />
