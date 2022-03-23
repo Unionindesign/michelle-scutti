@@ -34,15 +34,15 @@ const Schedule = () => {
                 
 
                 <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion</strong>
+                  <strong>Hot Power Fusion & Core Restore</strong>
                   <br />
-                  Tuesday 5:30pm, 9:00pm (Candlelight class)
+                  Tuesday 5:30pm HPF || 9:00pm HPF: Candlelight class
                   <br />
-                  Thursday 5:30pm 
+                  Thursday 5:30pm HPF || 8:30pm Core Restore (Yin Yoga)
                   <br />
-                  Friday 6:30am
+                  Friday 6:30am HPF
                   <br />
-                  Saturday 7:00am, 11:30am
+                  Saturday 7:00am HPF || 11:30am HPF
                   <br />
                   <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
