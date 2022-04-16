@@ -15,55 +15,25 @@ class Bio extends Component {
     return (
       <div className="bio">
         <Row>
-          {/* <div className="parallax-container"> */}
           <section id="bioSection">
             <div className="parallaxContentBio">
-              {/* <Col l={6} m={12}> */}
               <Col m={12}>
                 <div className="bioText">
                   <img className="bioCirImg" src={bioCir} alt="Tree" />
                   <h4 className="sectionTitle">Bio</h4>
                   <hr />
                   <p>
-                    Michelle Scutti is a southern California native raising that
-                    good vibration in colorful Colorado. She has been practicing
-                    yoga for nine years; a transformational experience both
-                    physically and mentally. Light on her feet, consistent in
-                    her optimism and strong in her practice, Michelle completed
-                    her first 200 RYT in 2011. After teaching in Denver a few
-                    years, her goal was to spread her light and offer her
-                    services internationally. She moved to Montezuma Costa Rica
-                    and had the honor of working for Dagmar Spremberg
-                    owner/founder of Montezuma Yoga and teaching alongside
-                    Silvia Eriksen, Lucy Hamel, and Elena Baraff. She also
-                    offered Vinyasa classes alongside Syska Iacono at the
-                    gorgeous Ylang Ylang Beach Resort as well as classes at
-                    Rancho Delicioso a Permaculture Farm for Anamaya Resort.
+                  Michelle Scutti is a Southern California native raising that good vibration on and off the mat. She stands in her truth and radiantly and authentically shines. She has been practicing yoga for 15 years and teaching for 11 years. Light on her feet, consistent in her optimism and strong in her practice, she completed her first RYT 200 hour training 2011 in Denver, Colorado. Following her dream of adventure and living a more simple life, she moved to Montezuma Costa Rica and offered classes in the style of Vinyasa, Yin and Thai Massage for Montezuma Yoga. She also offered Vinyasa classes at the gorgeous Ylang Ylang Beach Resort and Rancho Delicioso a Permaculture Farm for Anamaya Resort.
                   </p>
                   <p>
-                    Now back in Denver she continued her education with another
-                    200 RYT training and went on to study Yoga Nidra and Kids
-                    Yoga. She offers public and private classes in the style of
-                    Vinyasa, Hot, Yin and Nidra. She is humbled to connect with
-                    this ancient lineage on a deeper level. She holds a space
-                    for her students to let go/soften into the divine feminine
-                    and continuously self explore from the inside out. She loves
-                    discovering the unique qualities of each individual and
-                    looks forward to meeting you!
+                  Now back in Orange County Michelle is offering public and private classes in the style of Hot Power Fusion, Yin Yoga, Hot Yoga, Vinyasa, Meditation, and Kids Yoga. She is humbled to connect with this ancient lineage on a deeper level. Lately she is intrigued by and studying Tantric Vinyasa. Each class explores intelligent Vinyasa sequences guided by principles of alignment, pranayama, meditation, and other techniques for awakening our inner fire and stabilizing the mind. She infuses her classes with compassion, joy, and love. She looks forward to meeting you!
+
                   </p>
                 </div>
               </Col>
-              {/* <Col l={6} m={12}>
-                <img
-                  className="bioImg"
-                  src={bioImg}
-                  alt="Michelle doing Tree Pose in Green Bikini"
-                />
-              </Col> */}
             </div>
             <Parallax imageSrc={bioParallax} />
           </section>
-          {/* </div> */}
         </Row>
       </div>
     );
