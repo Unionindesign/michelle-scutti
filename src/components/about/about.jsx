@@ -20,10 +20,7 @@ class About extends Component {
               <img className="iconImg" src={omIcon} alt="Om symbol" />
               <h4>Yoga</h4>
               <p>
-                ERYT200 certified yoga instructor. Completed training with
-                Corepower yoga for Hot/Bikram series, Power Vinyasa, and studied
-                Yoga Nidra with Jeremy Wolf in Denver, CO, and Young Yolks Kids
-                Yoga training with Jess Kos Birney.
+              Michelle is a RYT (Registered Yoga Teacher) with over 500 hours of training. She completed a 200 hour teacher training in Hot Yoga and Hot Power Fusion as well as a 200 hour teacher training in Power Vinyasa. Later she went on to study Yoga Nidra, Yin Yoga & Kids Yoga.
               </p>
             </Col>
             <Col m={4} s={12}>
@@ -32,8 +29,7 @@ class About extends Component {
 
               <h4>Massage</h4>
               <p>
-                Certified Thai Yoga massage, certificate from the Thai Ministry
-                from TTC Spa School in Chiang Mai, Thailand.
+              Michelle lived in Chiang Mai, Thailand for two months at the TTC Spa School and received her 200 hour certificate from the Thai Ministry in Traditional Thai Massage.
               </p>
             </Col>
             <Col m={4} s={12}>
@@ -41,9 +37,7 @@ class About extends Component {
               <img className="iconImg" src={globeIcon} alt="Om symbol" />
               <h4>Travel</h4>
               <p>
-                Extensive travel and teaching experience at resorts in Costa
-                Rica including Ylang Ylang Beach Resort, Montezuma Yoga and PURE
-                gym/spa in Granada.
+                Michelle has traveled extensively, with teaching experience at resorts including Ylang Ylang Beach Resort and Montezuma Yoga in Costa Rica and PURE gym/spa in Granada.
               </p>
             </Col>
           </section>
