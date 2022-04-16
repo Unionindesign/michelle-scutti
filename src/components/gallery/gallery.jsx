@@ -26,28 +26,28 @@ class Gallery extends Component {
               <Col s={6} l={3}>
                 <MediaBox
                   src={gal1}
-                  caption="Headstand on the beach in Playa Grande, Costa Rica. Besos!"
+                  caption="" //"Headstand on the beach in Playa Grande, Costa Rica. Besos!"
                   className="galImg"
                 />
               </Col>
               <Col s={6} l={3}>
                 <MediaBox
                   src={gal2}
-                  caption="Yoga on the Rocks with Melissa Schacht and Sara Palecki"
+                  caption="" //"Yoga on the Rocks with Melissa Schacht and Sara Palecki"
                   className="galImg"
                 />
               </Col>
               <Col s={6} l={3}>
                 <MediaBox
                   src={gal3}
-                  caption="Revolved Big Toe Pose in Thailand"
+                  caption="" // "Revolved Big Toe Pose in Thailand"
                   className="galImg"
                 />
               </Col>
               <Col s={6} l={3}>
                 <MediaBox
                   src={gal4}
-                  caption="Tree Pose by the pool at Anamaya Resort, Montezuma Costa Rica"
+                  caption="" //"Tree Pose by the pool at Anamaya Resort, Montezuma Costa Rica"
                   className="galImg"
                 />
               </Col>
@@ -56,7 +56,7 @@ class Gallery extends Component {
               <Col s={6} l={3}>
                 <MediaBox
                   src={gal5}
-                  caption="Mala Bead Prayers"
+                  caption="" //"Mala Bead Prayers"
                   className="galImg"
                 />
               </Col>
@@ -70,7 +70,7 @@ class Gallery extends Component {
               <Col s={6} l={3}>
                 <MediaBox
                   src={gal7}
-                  caption="Portrait of Michelle"
+                  caption="" //"Portrait of Michelle"
                   className="galImg"
                 />
               </Col>
