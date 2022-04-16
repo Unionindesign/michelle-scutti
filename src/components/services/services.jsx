@@ -52,14 +52,6 @@ class Services extends Component {
                   <div className="tabContent">
                     <img src={srvYoga} alt="dancer's pose" className="tabImg" />
                     <p>
-                      Michelle earned her 200hr Yoga Alliance certificate from
-                      Corepower Yoga in 2011 for the Hot and Hot Power Fusion
-                      formats. After a few years teaching and some time in Costa
-                      Rica, she returned to complete another 200hr training for
-                      Power Vinyasa, along with Yoga Nidra and Young Yolks Kids
-                      Yoga.
-                    </p>
-                    <p>
                       Michelle continues to teach in variety of formats, both at
                       Corepower Yoga studios as well as private lessons. You can
                       learn about the various yoga modalities below:
