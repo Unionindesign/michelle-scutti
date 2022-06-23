@@ -8,7 +8,7 @@ import { Slider, Slide } from "react-materialize";
 // import AspenWheel from "../../images/landing-wheelAspens.png";
 import FixedFirmWaves from "../../images/landing-fixedFirmWaves.png";
 import CostaTrees from "../../images/landing-costaTrees.png";
-// import TreePose from "../../images/bio-treeGrn.png";
+import TreePose from "../../images/bio-treeGrn.png";
 //import Sitting from "../../images/landing-seatedSmile.png";
 // import RedRocksBack from "../../images/cpyredrocks.png";
 //import MalaHands from "../../images/gal-malaHands.png";
@@ -41,12 +41,12 @@ class TopLanding extends Component {
           >
             Offering public and private classes
           </Slide>
-          <Slide src={CostaTrees} title="Travel.">
-            Make time to see the world
+          <Slide src={CostaTrees} title="Travel">
+            {/* Make time to see the world */}
           </Slide>
-          {/* <Slide src={TreePose} title="Massage.">
-            Specializing in Thai Yoga Massage
-          </Slide> */}
+          <Slide src={TreePose} title="">
+            {/* Specializing in Thai Yoga Massage */}
+          </Slide>
         </Slider>
         `
       </div>
