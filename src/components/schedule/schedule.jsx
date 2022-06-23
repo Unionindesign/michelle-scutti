@@ -23,7 +23,7 @@ const Schedule = () => {
             <Col l={5} s={12}>
                               
               {/* =========
-                COREPOWER - HIDDEN
+                COREPOWER
               ============= */} 
               <div className="scheduleCard">
                 <img
@@ -34,16 +34,15 @@ const Schedule = () => {
                 
 
                 <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion & Core Restore</strong>
+                  <strong>Hot Power Fusion - C2 - Core Restore</strong>
                   <br />
-                  Tuesday 5:30pm HPF || 9:00pm HPF Candlelight class
+                  Tuesday 5:30pm HPF
                   <br />
                   Thursday 5:30pm HPF || 8:30pm Core Restore (Yin Yoga)
                   <br />
-                  Friday 6:30am HPF
-                  <br />
                   Saturday 7:00am HPF || 10:00am HPF
                   <br />
+                  Sunday 11:00am C2 Heated Power Vinyasa
                   <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
