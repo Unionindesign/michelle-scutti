@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import "./gallery.css";
 
-//React Materiliaze
+//React Materialize
 import { Row, Col, MediaBox } from "react-materialize";
 
 //images
 import gal1 from "../../images/gal-headStand.png";
-import gal2 from "../../images/gal-redRocksSquare.png";
-import gal3 from "../../images/gal-revBigToe.png";
+// import gal2 from "../../images/gal-redRocksSquare.png";
+// import gal3 from "../../images/gal-revBigToe.png";
 import gal4 from "../../images/gal-treePool.png";
-import gal5 from "../../images/gal-malaHands.png";
+// import gal5 from "../../images/gal-malaHands.png";
 // import gal6 from "../../images/landing-fixedFirmWaves.png";
-import gal7 from "../../images/seatedSmile.jpeg";
+// import gal7 from "../../images/seatedSmile.jpeg";
+import Aspens from "../../images/gal-wheelAspen.png"
+import CamelGroup from "../../images/CamelGroup.jpeg"
 
 class Gallery extends Component {
   render() {
@@ -30,17 +32,24 @@ class Gallery extends Component {
                   className="galImg"
                 />
               </Col>
-              <Col s={6} l={3}>
+              {/* <Col s={6} l={3}>
                 <MediaBox
                   src={gal2}
                   caption="" //"Yoga on the Rocks with Melissa Schacht and Sara Palecki"
                   className="galImg"
                 />
+              </Col> */}
+              <Col s={6} l={3}>
+                <MediaBox
+                  src={CamelGroup}
+                  caption="" //"CamelPose in Costa"
+                  className="galImg"
+                />
               </Col>
               <Col s={6} l={3}>
                 <MediaBox
-                  src={gal3}
-                  caption="" // "Revolved Big Toe Pose in Thailand"
+                  src={Aspens}
+                  caption="" // "Wheel Pose with Aspen Trees"
                   className="galImg"
                 />
               </Col>
@@ -52,14 +61,14 @@ class Gallery extends Component {
                 />
               </Col>
             </Row>
-            <Row>
-              <Col s={6} l={3}>
+            {/* <Row> */}
+              {/* <Col s={6} l={3}>
                 <MediaBox
                   src={gal5}
                   caption="" //"Mala Bead Prayers"
                   className="galImg"
                 />
-              </Col>
+              </Col> */}
               {/* <Col s={6} l={3}>
                 <MediaBox
                   src={gal6}
@@ -67,14 +76,14 @@ class Gallery extends Component {
                   className="galImg"
                 />
               </Col> */}
-              <Col s={6} l={3}>
+              {/* <Col s={6} l={3}>
                 <MediaBox
                   src={gal7}
                   caption="" //"Portrait of Michelle"
                   className="galImg"
                 />
-              </Col>
-            </Row>
+              </Col> */}
+            {/* </Row> */}
           </section>
         </Row>
       </div>
