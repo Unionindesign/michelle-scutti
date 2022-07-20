@@ -34,15 +34,15 @@ const Schedule = () => {
                 
 
                 <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion - C2 - Core Restore</strong>
+                  <strong>Hot Power Fusion - C1 & C2 - Core Restore</strong>
                   <br />
                   Tuesday 5:30pm HPF
                   <br />
-                  Thursday 5:30pm HPF || 8:30pm Core Restore (Yin Yoga)
+                  Thursday 5:30pm HPF || 7:00pm C1 || 8:30pm Core Restore (Yin Yoga)
                   <br />
                   Saturday 7:00am HPF || 10:00am HPF
                   <br />
-                  Sunday 11:00am C2 Heated Power Vinyasa
+                  Sunday 11:00am C2 || 1:00pm C2 Heated Power Vinyasa
                   <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
