@@ -6,6 +6,7 @@ import { Row, Col } from "react-materialize";
 
 //images
 import Corepower from "../../images/cpylogo.png";
+import RaYogaLogo from "../../images/RaYogaLogo.gif";
 // import Yogapod from "../../images/yogapod-logo.jpg";
 //import LiveMusicYoga from "../../images/liveMusicYoga.png";
 // import ScheduleBackground from "../../images/cpyredrocks.png";
@@ -47,14 +48,6 @@ const Schedule = () => {
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
 
-                {/* <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion</strong>
-                  <br />
-                  Friday 6:30am
-                  <br />
-                  7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
-                </p> */}
-
                 <div className="cardFooter">
                   <hr />
                   <a
@@ -77,53 +70,34 @@ const Schedule = () => {
               </div> 
 
               {/* =========
-                YOGAPOD
+                RA YOGA
               ============= */}
               <div className="scheduleCard">
-                <p className="scheduleCardSpan">
-                  <strong>Private Classes</strong>
-                  <br />
-                  Available in Orange County, CA
-                  <br /> <br />
-                </p>
-
-                {/* <img
+                <img
                   className="scheduleCardLogoImg"
-                  style={{ margin: "-20px auto -20px auto" }}
-                  src={Yogapod}
-                  alt="cpy logo"
+                  style={{ margin: "-20px auto -20px auto"  }}
+                  src={RaYogaLogo}
+                  alt="ra yoga logo"
                 />
-               <h4 className="scheduleTitle">Class Schedule</h4> 
-
                 <p className="scheduleCardSpan">
                   <strong>Hot Yoga</strong>
                   <br />
-                  Friday 6:00pm
-                  <br /> <br />
-                  <strong>Pod Flow 2 Heated Vinyasa</strong>
+                  Wednesday 6:00am
                   <br />
-                  Saturday 5:15pm
-                  <br /> <br />
-                  <strong>Yin & Nidra</strong>
+                  Saturday 4:00pm
                   <br />
-                  Saturday 6:30pm
-                  <br /> <br />
-                  Denver West Studio
-                  <br />
-                  14500 W. Colfax Drive #131A Denver, CO 80401
                 </p>
-
                 <div className="cardFooter">
                   <hr />
                   <a
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.yogapod.com/denverwest/"
+                    href="https://rayoga.com/long-beach-studio/"
                   >
-                    Studio Info
+                    Ra Yoga Long Beach Studio Info
                   </a>
-                </div>  */}
+                </div> 
             </div>
             </Col>
             <Col l={7} s={12}>
@@ -132,7 +106,7 @@ const Schedule = () => {
                   title="Michelle's Studios"
                   src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
-                  height="475"
+                  height="578"
                 />
               </div>
             </Col>
