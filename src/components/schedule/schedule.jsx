@@ -7,7 +7,8 @@ import { Row, Col } from "react-materialize";
 //images
 import Corepower from "../../images/cpylogo.png";
 import RaYogaLogo from "../../images/RaYogaLogo.gif";
-// import Yogapod from "../../images/yogapod-logo.jpg";
+import PurpleYogaLogo from "../../images/PurpleYogaLogo.png";
+// import Yogapod from "../../images/PurpleYogaLogo.png";
 //import LiveMusicYoga from "../../images/liveMusicYoga.png";
 // import ScheduleBackground from "../../images/cpyredrocks.png";
 
@@ -35,11 +36,9 @@ const Schedule = () => {
                 
 
                 <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion - C1 & C2 - Core Restore</strong>
+                  <strong>Hot Power Fusion - C1 & C2 Power Vinyasa</strong>
                   <br />
-                  Tuesday 5:30pm HPF
-                  <br />
-                  Thursday 5:30pm HPF || 7:00pm C1 || 8:30pm Core Restore (Yin Yoga)
+                  Thursday 5:30pm HPF || 7:00pm C1
                   <br />
                   Saturday 7:00am HPF || 10:00am HPF
                   <br />
@@ -58,14 +57,6 @@ const Schedule = () => {
                   >
                     Huntington Beach Studio Info
                   </a>
-                  {/* <a
-                    className="cardFooterLink"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.corepoweryoga.com/yoga-studios/colorado/littleton/littleton"
-                  >
-                    Littleton Studio
-                  </a> */}
                 </div>
               </div> 
 
@@ -80,9 +71,11 @@ const Schedule = () => {
                   alt="ra yoga logo"
                 />
                 <p className="scheduleCardSpan">
-                  <strong>Hot Yoga</strong>
+                  <strong>Hot Ra - Hot Yoga</strong>
                   <br />
                   Wednesday 6:00am
+                  <br />
+                  Thursday 6:30am
                   <br />
                   Saturday 4:00pm
                   <br />
@@ -99,14 +92,54 @@ const Schedule = () => {
                   </a>
                 </div> 
             </div>
+
+
+             {/* =========
+                PURPLE YOGA
+              ============= */}
+              <div className="scheduleCard">
+                <img
+                  className="scheduleCardLogoImg"
+                  style={{ margin: "-20px auto -20px auto"  }}
+                  src={PurpleYogaLogo}
+                  alt="purple yoga logo"
+                />
+                <p className="scheduleCardSpan">
+                  <strong>Blue 60 (Vinyasa) - Red 60 (Heated Vinyasa)</strong>
+                  <br />
+                  Monday 6:00am Red 60 - Fullerton Studio
+                  <br />
+                  Friday 9:15am Blue 60 - Long Beach Studio
+                  <br />
+                </p>
+                <div className="cardFooter">
+                  <hr />
+                  <a
+                    className="cardFooterLink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.purpleyoga.org/fullerton"
+                  >
+                    Fullterton Studio
+                  </a>
+                  <a
+                    className="cardFooterLink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.purpleyoga.org/long-beach"
+                  >
+                    Long Beach Studio
+                  </a>
+                </div> 
+            </div>
             </Col>
             <Col l={7} s={12}>
-              <div className="scheduleCard" style={{ marginTop: "60px" }}>
+              <div className="scheduleCard" style={{ marginTop: "30px" }}>
                 <iframe
                   title="Michelle's Studios"
                   src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
-                  height="578"
+                  height="700"
                 />
               </div>
             </Col>
