@@ -6,7 +6,9 @@ import { Row, Col } from "react-materialize";
 
 //images
 import Corepower from "../../images/cpylogo.png";
-// import Yogapod from "../../images/yogapod-logo.jpg";
+import RaYogaLogo from "../../images/RaYogaLogo.gif";
+import PurpleYogaLogo from "../../images/PurpleYogaLogo.png";
+// import Yogapod from "../../images/PurpleYogaLogo.png";
 //import LiveMusicYoga from "../../images/liveMusicYoga.png";
 // import ScheduleBackground from "../../images/cpyredrocks.png";
 
@@ -34,26 +36,16 @@ const Schedule = () => {
                 
 
                 <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion - C2 - Core Restore</strong>
+                  <strong>Hot Power Fusion - C1 & C2 Power Vinyasa</strong>
                   <br />
-                  Tuesday 5:30pm HPF
-                  <br />
-                  Thursday 5:30pm HPF || 8:30pm Core Restore (Yin Yoga)
+                  Thursday 5:30pm HPF || 7:00pm C1
                   <br />
                   Saturday 7:00am HPF || 10:00am HPF
                   <br />
-                  Sunday 11:00am C2 Heated Power Vinyasa
+                  Sunday 11:00am C2 || 1:00pm C2 Heated Power Vinyasa
                   <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
-
-                {/* <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion</strong>
-                  <br />
-                  Friday 6:30am
-                  <br />
-                  7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
-                </p> */}
 
                 <div className="cardFooter">
                   <hr />
@@ -65,74 +57,89 @@ const Schedule = () => {
                   >
                     Huntington Beach Studio Info
                   </a>
-                  {/* <a
-                    className="cardFooterLink"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.corepoweryoga.com/yoga-studios/colorado/littleton/littleton"
-                  >
-                    Littleton Studio
-                  </a> */}
                 </div>
               </div> 
 
               {/* =========
-                YOGAPOD
+                RA YOGA
               ============= */}
               <div className="scheduleCard">
-                <p className="scheduleCardSpan">
-                  <strong>Private Classes</strong>
-                  <br />
-                  Available in Orange County, CA
-                  <br /> <br />
-                </p>
-
-                {/* <img
+                <img
                   className="scheduleCardLogoImg"
-                  style={{ margin: "-20px auto -20px auto" }}
-                  src={Yogapod}
-                  alt="cpy logo"
+                  style={{ margin: "-20px auto -20px auto"  }}
+                  src={RaYogaLogo}
+                  alt="ra yoga logo"
                 />
-               <h4 className="scheduleTitle">Class Schedule</h4> 
-
                 <p className="scheduleCardSpan">
-                  <strong>Hot Yoga</strong>
+                  <strong>Hot Ra - Hot Yoga</strong>
                   <br />
-                  Friday 6:00pm
-                  <br /> <br />
-                  <strong>Pod Flow 2 Heated Vinyasa</strong>
+                  Wednesday 6:00am
                   <br />
-                  Saturday 5:15pm
-                  <br /> <br />
-                  <strong>Yin & Nidra</strong>
+                  Thursday 6:30am
                   <br />
-                  Saturday 6:30pm
-                  <br /> <br />
-                  Denver West Studio
+                  Saturday 4:00pm
                   <br />
-                  14500 W. Colfax Drive #131A Denver, CO 80401
                 </p>
-
                 <div className="cardFooter">
                   <hr />
                   <a
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.yogapod.com/denverwest/"
+                    href="https://rayoga.com/long-beach-studio/"
                   >
-                    Studio Info
+                    Ra Yoga Long Beach Studio Info
                   </a>
-                </div>  */}
+                </div> 
+            </div>
+
+
+             {/* =========
+                PURPLE YOGA
+              ============= */}
+              <div className="scheduleCard">
+                <img
+                  className="scheduleCardLogoImg"
+                  style={{ margin: "-20px auto -20px auto"  }}
+                  src={PurpleYogaLogo}
+                  alt="purple yoga logo"
+                />
+                <p className="scheduleCardSpan">
+                  <strong>Blue 60 (Vinyasa) - Red 60 (Heated Vinyasa)</strong>
+                  <br />
+                  Monday 6:00am Red 60 - Fullerton Studio
+                  <br />
+                  Friday 9:15am Blue 60 - Long Beach Studio
+                  <br />
+                </p>
+                <div className="cardFooter">
+                  <hr />
+                  <a
+                    className="cardFooterLink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.purpleyoga.org/fullerton"
+                  >
+                    Fullterton Studio
+                  </a>
+                  <a
+                    className="cardFooterLink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.purpleyoga.org/long-beach"
+                  >
+                    Long Beach Studio
+                  </a>
+                </div> 
             </div>
             </Col>
             <Col l={7} s={12}>
-              <div className="scheduleCard" style={{ marginTop: "60px" }}>
+              <div className="scheduleCard" style={{ marginTop: "30px" }}>
                 <iframe
                   title="Michelle's Studios"
                   src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
-                  height="475"
+                  height="700"
                 />
               </div>
             </Col>
