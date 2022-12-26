@@ -71,7 +71,7 @@ const Schedule = () => {
                 <p className="scheduleCardSpan">
                   <strong>Hot Ra - Hot Yoga</strong>
                   <br />
-                  Thursday 6:30am
+                  Wednesday 6:00am
                   <br />
                 </p>
                 <div className="cardFooter">
