@@ -42,8 +42,6 @@ const Schedule = () => {
                   <br />
                   Saturday 7:00am HPF || 10:00am HPF
                   <br />
-                  Sunday 11:00am C2 || 1:00pm C2 Heated Power Vinyasa
-                  <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
 
@@ -73,11 +71,7 @@ const Schedule = () => {
                 <p className="scheduleCardSpan">
                   <strong>Hot Ra - Hot Yoga</strong>
                   <br />
-                  Wednesday 6:00am
-                  <br />
                   Thursday 6:30am
-                  <br />
-                  Saturday 4:00pm
                   <br />
                 </p>
                 <div className="cardFooter">
@@ -109,6 +103,8 @@ const Schedule = () => {
                   <br />
                   Monday 6:00am Red 60 - Fullerton Studio
                   <br />
+                  Wednesday 8:00pm Red 60 - Long Beach Studio
+                  <br />
                   Friday 9:15am Blue 60 - Long Beach Studio
                   <br />
                 </p>
@@ -120,7 +116,7 @@ const Schedule = () => {
                     rel="noopener noreferrer"
                     href="https://www.purpleyoga.org/fullerton"
                   >
-                    Fullterton Studio
+                    Fullerton Studio
                   </a>
                   <a
                     className="cardFooterLink"
@@ -139,7 +135,7 @@ const Schedule = () => {
                   title="Michelle's Studios"
                   src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
-                  height="700"
+                  height="665"
                 />
               </div>
             </Col>
