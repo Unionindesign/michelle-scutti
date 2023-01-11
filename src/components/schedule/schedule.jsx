@@ -40,7 +40,7 @@ const Schedule = () => {
                   <br />
                   Thursday 5:30pm HPF || 7:00pm C1
                   <br />
-                  Saturday 7:00am HPF || 10:00am HPF
+                  Saturday 7:00am HPF
                   <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
@@ -106,6 +106,8 @@ const Schedule = () => {
                   Wednesday 8:00pm Red 60 - Long Beach Studio
                   <br />
                   Friday 9:15am Blue 60 - Long Beach Studio
+                  <br />
+                  Saturday 10:15am Blue 60 - Long Beach Studio
                   <br />
                 </p>
                 <div className="cardFooter">
