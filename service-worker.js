@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/michelle-scutti/precache-manifest.8be7ea7a4bbc0a5e1ecaf0b49ca7b72e.js"
+  "/michelle-scutti/precache-manifest.2fd7a873913663f86b0c03a65d5c81a2.js"
 );
 
 workbox.clientsClaim();
