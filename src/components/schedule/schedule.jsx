@@ -36,9 +36,9 @@ const Schedule = () => {
                 
 
                 <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion - C1 & C2 Power Vinyasa</strong>
+                  <strong>Hot Power Fusion - C2 Power Vinyasa</strong>
                   <br />
-                  Thursday 5:30pm HPF || 7:00pm C1
+                  Thursday 5:30pm HPF || 7:00pm C2
                   <br />
                   Saturday 7:00am HPF
                   <br />
@@ -73,6 +73,8 @@ const Schedule = () => {
                   <br />
                   Wednesday 6:00am
                   <br />
+                  Thursday 6:30am
+                  <br />
                 </p>
                 <div className="cardFooter">
                   <hr />
@@ -101,7 +103,11 @@ const Schedule = () => {
                 <p className="scheduleCardSpan">
                   <strong>Blue 60 (Vinyasa) - Red 60 (Heated Vinyasa)</strong>
                   <br />
-                  Monday 6:00am Red 60 - Fullerton Studio
+                  Monday Morning 6:00am Red 60 - Fullerton Studio
+                  <br />
+                  Monday Evening 6:30pm &  8:00pm Red 60 - Fullerton Studio
+                  {/* <br />
+                  Monday Red 60 - Fullerton Studio */}
                   <br />
                   Wednesday 8:00pm Red 60 - Long Beach Studio
                   <br />
@@ -137,7 +143,7 @@ const Schedule = () => {
                   title="Michelle's Studios"
                   src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
-                  height="665"
+                  height="720"
                 />
               </div>
             </Col>
