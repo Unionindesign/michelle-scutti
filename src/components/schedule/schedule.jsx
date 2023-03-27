@@ -40,8 +40,6 @@ const Schedule = () => {
                   <br />
                   Thursday 5:30pm HPF || 7:00pm C2
                   <br />
-                  Saturday 7:00am HPF
-                  <br />
                   7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
                 </p>
 
@@ -103,15 +101,11 @@ const Schedule = () => {
                 <p className="scheduleCardSpan">
                   <strong>Blue 60 (Vinyasa) - Red 60 (Heated Vinyasa)</strong>
                   <br />
-                  Monday Morning 6:00am Red 60 - Fullerton Studio
-                  <br />
                   Monday Evening 6:30pm &  8:00pm Red 60 - Fullerton Studio
-                  {/* <br />
-                  Monday Red 60 - Fullerton Studio */}
                   <br />
                   Wednesday 8:00pm Red 60 - Long Beach Studio
                   <br />
-                  Friday 9:15am Blue 60 - Long Beach Studio
+                  Saturday 8:30am Red 60 - Long Beach Studio
                   <br />
                   Saturday 10:15am Blue 60 - Long Beach Studio
                   <br />
