@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "5efebdfe3d18b1402a5a",
-    "url": "/michelle-scutti/static/css/main.8db60807.chunk.css"
+    "revision": "3228f9bc9fc79aa8761f",
+    "url": "/michelle-scutti/static/css/main.5ce7429c.chunk.css"
   },
   {
-    "revision": "5efebdfe3d18b1402a5a",
-    "url": "/michelle-scutti/static/js/main.5efebdfe.chunk.js"
+    "revision": "3228f9bc9fc79aa8761f",
+    "url": "/michelle-scutti/static/js/main.3228f9bc.chunk.js"
   },
   {
-    "revision": "f4b58c93a78ae1a71d2b",
-    "url": "/michelle-scutti/static/js/1.f4b58c93.chunk.js"
+    "revision": "8896a1d3161a1c69de55",
+    "url": "/michelle-scutti/static/js/1.8896a1d3.chunk.js"
   },
   {
     "revision": "4cb519989502e62ed84b",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/michelle-scutti/static/media/cpyredrocks.c74add4b.png"
   },
   {
-    "revision": "8771b21b2ef23ba7b6dadf76f51206fa",
+    "revision": "729d99cfab917142cd4bd8c81adec384",
     "url": "/michelle-scutti/index.html"
   }
 ];
