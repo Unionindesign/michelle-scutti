@@ -36,11 +36,13 @@ const Schedule = () => {
                 
 
                 <p className="scheduleCardSpan">
-                  <strong>Hot Power Fusion - C2 Power Vinyasa</strong>
+                  <strong>Hot Power Fusion - Yin Yoga</strong>
                   <br />
-                  Thursday 5:30pm HPF || 7:00pm C2
+                  Friday 4:00pm HPF 
                   <br />
-                  7777 Edinger Ave, Suite D-230, Huntington Beach, CA 92647
+                  Friday 5:30pm Yin Yoga (Restoravtive)
+                  <br />
+                  2646 Dupont Drive, Irvine, CA 92612
                 </p>
 
                 <div className="cardFooter">
@@ -49,9 +51,9 @@ const Schedule = () => {
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.corepoweryoga.com/yoga-studios/CA/Huntington%20Beach/huntington-beach"
+                    href="https://www.corepoweryoga.com/yoga-studios/ca/orange-county/irvine-jamboree"
                   >
-                    Huntington Beach Studio Info
+                    Irvine Jamboree Studio Info
                   </a>
                 </div>
               </div> 
@@ -59,7 +61,7 @@ const Schedule = () => {
               {/* =========
                 RA YOGA
               ============= */}
-              <div className="scheduleCard">
+              {/* <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
                   style={{ margin: "-20px auto -20px auto"  }}
@@ -85,13 +87,14 @@ const Schedule = () => {
                     Ra Yoga Long Beach Studio Info
                   </a>
                 </div> 
-            </div>
+            </div> */}
 
 
              {/* =========
                 PURPLE YOGA
               ============= */}
-              <div className="scheduleCard">
+              
+              {/* <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
                   style={{ margin: "-20px auto -20px auto"  }}
@@ -129,7 +132,8 @@ const Schedule = () => {
                     Long Beach Studio
                   </a>
                 </div> 
-            </div>
+            </div> */}
+
             </Col>
             <Col l={7} s={12}>
               <div className="scheduleCard" style={{ marginTop: "30px" }}>
@@ -137,7 +141,7 @@ const Schedule = () => {
                   title="Michelle's Studios"
                   src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
-                  height="720"
+                  height="420"
                 />
               </div>
             </Col>
