@@ -1,9 +1,9 @@
 {
-  "main.css": "/michelle-scutti/static/css/main.5ce7429c.chunk.css",
-  "main.js": "/michelle-scutti/static/js/main.3228f9bc.chunk.js",
-  "main.js.map": "/michelle-scutti/static/js/main.3228f9bc.chunk.js.map",
-  "static/js/1.8896a1d3.chunk.js": "/michelle-scutti/static/js/1.8896a1d3.chunk.js",
-  "static/js/1.8896a1d3.chunk.js.map": "/michelle-scutti/static/js/1.8896a1d3.chunk.js.map",
+  "main.css": "/michelle-scutti/static/css/main.352d687d.chunk.css",
+  "main.js": "/michelle-scutti/static/js/main.654df3f9.chunk.js",
+  "main.js.map": "/michelle-scutti/static/js/main.654df3f9.chunk.js.map",
+  "static/js/1.7c8b9908.chunk.js": "/michelle-scutti/static/js/1.7c8b9908.chunk.js",
+  "static/js/1.7c8b9908.chunk.js.map": "/michelle-scutti/static/js/1.7c8b9908.chunk.js.map",
   "runtime~main.js": "/michelle-scutti/static/js/runtime~main.4cb51998.js",
   "runtime~main.js.map": "/michelle-scutti/static/js/runtime~main.4cb51998.js.map",
   "static/media/logo-MichelleRose.png": "/michelle-scutti/static/media/logo-MichelleRose.d5939a07.png",
@@ -13,7 +13,6 @@
   "static/media/bio-sqSmile.png": "/michelle-scutti/static/media/bio-sqSmile.c3f26a6c.png",
   "static/media/bio.css": "/michelle-scutti/static/media/bio-beachParallax.7ea9ed09.png",
   "static/media/italy.png": "/michelle-scutti/static/media/italy.3406716d.png",
-  "static/media/cpylogo.png": "/michelle-scutti/static/media/cpylogo.62c4982b.png",
   "static/media/iconOm.png": "/michelle-scutti/static/media/iconOm.e464ec49.png",
   "static/media/iconGlobe.png": "/michelle-scutti/static/media/iconGlobe.ea56bd6d.png",
   "static/media/squareTree.png": "/michelle-scutti/static/media/squareTree.8564a701.png",
@@ -26,8 +25,8 @@
   "static/media/gal-wheelAspen.png": "/michelle-scutti/static/media/gal-wheelAspen.172a3dfd.png",
   "static/media/CamelGroup.jpeg": "/michelle-scutti/static/media/CamelGroup.2e256c41.jpeg",
   "static/media/schedule.css": "/michelle-scutti/static/media/cpyredrocks.c74add4b.png",
-  "static/css/main.5ce7429c.chunk.css.map": "/michelle-scutti/static/css/main.5ce7429c.chunk.css.map",
+  "static/css/main.352d687d.chunk.css.map": "/michelle-scutti/static/css/main.352d687d.chunk.css.map",
   "index.html": "/michelle-scutti/index.html",
-  "precache-manifest.0a8cda12042b7974f989c77f37e28e4e.js": "/michelle-scutti/precache-manifest.0a8cda12042b7974f989c77f37e28e4e.js",
+  "precache-manifest.19a33f98c66651eb60e2a4d10a1e43c6.js": "/michelle-scutti/precache-manifest.19a33f98c66651eb60e2a4d10a1e43c6.js",
   "service-worker.js": "/michelle-scutti/service-worker.js"
 }

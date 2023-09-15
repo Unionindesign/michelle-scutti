@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "3228f9bc9fc79aa8761f",
-    "url": "/michelle-scutti/static/css/main.5ce7429c.chunk.css"
+    "revision": "654df3f97ec7cf678f1d",
+    "url": "/michelle-scutti/static/css/main.352d687d.chunk.css"
   },
   {
-    "revision": "3228f9bc9fc79aa8761f",
-    "url": "/michelle-scutti/static/js/main.3228f9bc.chunk.js"
+    "revision": "654df3f97ec7cf678f1d",
+    "url": "/michelle-scutti/static/js/main.654df3f9.chunk.js"
   },
   {
-    "revision": "8896a1d3161a1c69de55",
-    "url": "/michelle-scutti/static/js/1.8896a1d3.chunk.js"
+    "revision": "7c8b9908ee310b1a2309",
+    "url": "/michelle-scutti/static/js/1.7c8b9908.chunk.js"
   },
   {
     "revision": "4cb519989502e62ed84b",
@@ -42,10 +42,6 @@ self.__precacheManifest = [
   {
     "revision": "3406716d4425c6eccba2236073d980ec",
     "url": "/michelle-scutti/static/media/italy.3406716d.png"
-  },
-  {
-    "revision": "62c4982b94263ae61173600a82655756",
-    "url": "/michelle-scutti/static/media/cpylogo.62c4982b.png"
   },
   {
     "revision": "e464ec4972f8b2a13d054ad7c0c8adf7",
@@ -96,7 +92,7 @@ self.__precacheManifest = [
     "url": "/michelle-scutti/static/media/cpyredrocks.c74add4b.png"
   },
   {
-    "revision": "729d99cfab917142cd4bd8c81adec384",
+    "revision": "9ba386e38830954676c4333591945e2c",
     "url": "/michelle-scutti/index.html"
   }
 ];
