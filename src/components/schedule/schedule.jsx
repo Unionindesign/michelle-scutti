@@ -5,12 +5,14 @@ import "./schedule.css";
 import { Row, Col } from "react-materialize";
 
 //images
-import Corepower from "../../images/cpylogo.png";
-import RaYogaLogo from "../../images/RaYogaLogo.gif";
-import PurpleYogaLogo from "../../images/PurpleYogaLogo.png";
+// import Corepower from "../../images/cpylogo.png";
+// import RaYogaLogo from "../../images/RaYogaLogo.gif";
+// import PurpleYogaLogo from "../../images/PurpleYogaLogo.png";
 // import Yogapod from "../../images/PurpleYogaLogo.png";
 //import LiveMusicYoga from "../../images/liveMusicYoga.png";
 // import ScheduleBackground from "../../images/cpyredrocks.png";
+import logo from "../../images/logo-MichelleRose.png";
+
 
 const Schedule = () => {
   return (
@@ -23,11 +25,19 @@ const Schedule = () => {
           <Row>
             {" "}
             <Col l={5} s={12}>
+            <div className="scheduleCard">
+                <img
+                  className="scheduleCardLogoImg"
+                  src={logo}
+                  alt="Michelle Scutti logo"
+                />
+                <p className="scheduleCardSpan">No public classes available at this time.</p>
+            </div>
                               
               {/* =========
                 COREPOWER
               ============= */} 
-              <div className="scheduleCard">
+              {/* <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
                   src={Corepower}
@@ -40,7 +50,7 @@ const Schedule = () => {
                   <br />
                   Friday 4:00pm HPF 
                   <br />
-                  Friday 5:30pm Yin Yoga (Restoravtive)
+                  Friday 5:30pm Yin Yoga (Restorative)
                   <br />
                   2646 Dupont Drive, Irvine, CA 92612
                 </p>
@@ -56,7 +66,7 @@ const Schedule = () => {
                     Irvine Jamboree Studio Info
                   </a>
                 </div>
-              </div> 
+              </div>  */}
 
               {/* =========
                 RA YOGA
