@@ -52,8 +52,7 @@ class Services extends Component {
                   <div className="tabContent">
                     <img src={srvYoga} alt="dancer's pose" className="tabImg" />
                     <p>
-                      Michelle continues to teach in variety of formats, both at
-                      Corepower Yoga studios as well as private lessons. You can
+                      Michelle continues to teach a variety of formats for Purple Yoga, Ra Yoga as well as private lessons. You can
                       learn about the various yoga modalities below:
                     </p>
                     <div className="yogaButtonsBox">
