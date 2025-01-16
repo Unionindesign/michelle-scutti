@@ -103,7 +103,7 @@ const Schedule = () => {
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.purpleyoga.org/fullerton" //TODO! Update link once the studio page is live
+                    href="https://purpleyoga.org/huntington-beach-schedule/"
                   >
                     Huntington Beach
                   </a>
@@ -111,7 +111,7 @@ const Schedule = () => {
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.purpleyoga.org/long-beach"
+                    href="https://purpleyoga.org/long-beach-schedule/"
                   >
                     Long Beach
                   </a>
