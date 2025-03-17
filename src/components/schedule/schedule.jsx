@@ -12,7 +12,7 @@ import PurpleYogaLogo from "../../images/PURPLE+YOGA_FINAL+2.png";
 // import Yogapod from "../../images/PurpleYogaLogo.png";
 //import LiveMusicYoga from "../../images/liveMusicYoga.png";
 // import ScheduleBackground from "../../images/cpyredrocks.png";
-import logo from "../../images/logo-MichelleRose.png";
+// import logo from "../../images/logo-MichelleRose.png";
 
 
 const Schedule = () => {
@@ -84,11 +84,11 @@ const Schedule = () => {
                   alt="purple yoga logo"
                 />
                 <p className="scheduleCardSpan">
-                  <strong>Saturday - Long Beach </strong>
+                  <strong>Friday - Huntington Beach </strong>
                   <br />
-                  10:15am Blue 60 Vinyasa Yoga
+                  5:00pm Red 60 Heated Vinyasa Yoga
                   <br />
-                  11:30am Red 60 Heated Vinyasa Yoga
+                  6:30pm Red 60 Heated Vinyasa Yoga
                   <br />
                 </p>
                 <p className="scheduleCardSpan">
@@ -105,16 +105,16 @@ const Schedule = () => {
                     rel="noopener noreferrer"
                     href="https://purpleyoga.org/huntington-beach-schedule/"
                   >
-                    Huntington Beach
+                    Huntington Beach Studio
                   </a>
-                  <a
+                  {/* <a
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://purpleyoga.org/long-beach-schedule/"
                   >
                     Long Beach
-                  </a>
+                  </a> */}
                 </div> 
             </div>
 
@@ -129,9 +129,9 @@ const Schedule = () => {
                   alt="ra yoga logo"
                 />
                 <p className="scheduleCardSpan">
-                  <strong>Hot Ra - Hot Yoga</strong>
+                  <strong>Tuesday - Costa Mesa</strong>
                   <br />
-                  Subbing Costa Mesa, Newport Beach & Long Beach
+                  6:30am Intro to Level 2 
                   <br />
                 </p>
                 <div className="cardFooter">
@@ -142,9 +142,9 @@ const Schedule = () => {
                     rel="noopener noreferrer"
                     href="https://rayoga.com/costa-mesa-studio/"
                   >
-                    Costa Mesa
+                    Costa Mesa Studio
                   </a>
-                  <a
+                  {/* <a
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -158,8 +158,8 @@ const Schedule = () => {
                     rel="noopener noreferrer"
                     href="https://rayoga.com/long-beach-studio/"
                   >
-                    Long Beach
-                  </a>
+                    Long Beach 
+                  </a> */}
                 </div> 
             </div>
 
