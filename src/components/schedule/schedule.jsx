@@ -89,13 +89,15 @@ const Schedule = () => {
                   5:00pm Red 60 Heated Vinyasa Yoga
                   <br />
                   6:30pm Red 60 Heated Vinyasa Yoga
-                  <br />
                 </p>
                 <p className="scheduleCardSpan">
                   <strong>Sunday - Huntington Beach </strong>
                   <br />
                   10:00am Red 60 Heated Vinyasa Yoga
                   <br />
+                  11:30am Red 60 Heated Vinyasa Yoga
+                  <br />
+                  1:00pm Green 60 Vinyasa Yoga
                 </p>
                 <div className="cardFooter">
                   <hr />
@@ -170,7 +172,7 @@ const Schedule = () => {
                   title="Michelle's Studios"
                   src="https://www.google.com/maps/d/embed?mid=1xKxLsKdvvu8otm07MsUX7eeszkEZZCI7&z=11"
                   width="100%"
-                  height="420"
+                  height="475"
                 />
               </div>
             </Col>
