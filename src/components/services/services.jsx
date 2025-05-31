@@ -10,7 +10,7 @@ import {
   Tabs,
   Tab,
   Collapsible,
-  CollapsibleItem
+  CollapsibleItem,
   // Icon
 } from "react-materialize";
 
@@ -52,11 +52,12 @@ class Services extends Component {
                   <div className="tabContent">
                     <img src={srvYoga} alt="dancer's pose" className="tabImg" />
                     <p>
-                      Michelle continues to teach a variety of formats for Purple Yoga, Ra Yoga as well as private lessons. You can
+                      Michelle continues to teach a variety of formats for
+                      Purple Yoga, Ra Yoga as well as private lessons. You can
                       learn about the various yoga modalities below:
                     </p>
                     <div className="yogaButtonsBox">
-                      <Col s={3}>
+                      <Col s={2}>
                         <Modal
                           header="Vinyasa"
                           trigger={
@@ -78,7 +79,7 @@ class Services extends Component {
                           </p>
                         </Modal>
                       </Col>
-                      <Col s={3}>
+                      <Col s={2}>
                         <Modal
                           header="Hot"
                           trigger={
@@ -100,7 +101,7 @@ class Services extends Component {
                           </p>
                         </Modal>
                       </Col>
-                      <Col s={3}>
+                      <Col s={2}>
                         <Modal
                           header="Yin"
                           trigger={
@@ -120,7 +121,7 @@ class Services extends Component {
                           </p>
                         </Modal>
                       </Col>
-                      <Col s={3}>
+                      <Col s={2}>
                         <Modal
                           header="Nidra"
                           trigger={
@@ -147,6 +148,33 @@ class Services extends Component {
                             relaxation (yoga nidra) and meditation are the same,
                             a state of meditative consciousness called samadhi
                             or bliss.
+                          </p>
+                        </Modal>
+                      </Col>
+                      <Col s={2}>
+                        <Modal
+                          header="Prenatal"
+                          trigger={
+                            <a className="yogaButton" href="#">
+                              Prenatal
+                            </a>
+                          }
+                        >
+                          <p>
+                            Prenatal yoga focuses on positions that are
+                            specifically designed for pregnant women’s bodies.
+                            Common positions in regular yoga — such as those
+                            where your feet are spread far apart — may be too
+                            stressful for your joints and pelvic area when
+                            you’re expecting. As your baby grows, there’s a lot
+                            more weight pushing down on your bladder and pelvis.
+                            Pregnancy hormones also loosen your ligaments,
+                            making joint and bone problems (especially in the
+                            pubic bone) a source of discomfort. In addition to
+                            modifying positions for pregnancy, prenatal yoga
+                            also emphasizes breathing, stretches and
+                            strengthening moves that help your body prepare for
+                            labor.
                           </p>
                         </Modal>
                       </Col>

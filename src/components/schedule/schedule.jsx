@@ -84,13 +84,6 @@ const Schedule = () => {
                   alt="purple yoga logo"
                 />
                 <p className="scheduleCardSpan">
-                  <strong>Friday - Huntington Beach </strong>
-                  <br />
-                  5:00pm Red 60 Heated Vinyasa Yoga
-                  <br />
-                  6:30pm Red 60 Heated Vinyasa Yoga
-                </p>
-                <p className="scheduleCardSpan">
                   <strong>Sunday - Huntington Beach </strong>
                   <br />
                   10:00am Red 60 Heated Vinyasa Yoga
