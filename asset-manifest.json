@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/michelle-scutti/static/css/main.757d4fb3.css",
-    "main.js": "/michelle-scutti/static/js/main.c4fb8074.js",
+    "main.js": "/michelle-scutti/static/js/main.2e3ed925.js",
     "static/media/gal-wheelAspen.png": "/michelle-scutti/static/media/gal-wheelAspen.e75512394838dcb90354.png",
     "static/media/bio-beachParallax.png": "/michelle-scutti/static/media/bio-beachParallax.258f330b1e2ccb354bc2.png",
     "static/media/landing-costaTrees.png": "/michelle-scutti/static/media/landing-costaTrees.48a45c4ca2caca37fe8e.png",
@@ -18,16 +18,16 @@
     "static/media/bio-sqSmile.png": "/michelle-scutti/static/media/bio-sqSmile.b7fca752eb5b8010e278.png",
     "static/media/gal-treePool.png": "/michelle-scutti/static/media/gal-treePool.64b1a38613932b729859.png",
     "static/media/CamelGroup.jpeg": "/michelle-scutti/static/media/CamelGroup.dfce72c2d3e00705bca6.jpeg",
-    "static/media/PURPLE+YOGA_FINAL+2.png": "/michelle-scutti/static/media/PURPLE+YOGA_FINAL+2.5040b4e210c7f38e851d.png",
+    "static/media/WildYogiLogo.png": "/michelle-scutti/static/media/WildYogiLogo.1a41529f369a43fbaa74.png",
     "static/media/iconGlobe.png": "/michelle-scutti/static/media/iconGlobe.0a5033bff7f0f02477d7.png",
     "static/media/logo-MichelleRose.png": "/michelle-scutti/static/media/logo-MichelleRose.fc958c3567ce7df4f2b8.png",
     "static/media/iconOm.png": "/michelle-scutti/static/media/iconOm.d5fd1672d0b7bd616e0e.png",
     "index.html": "/michelle-scutti/index.html",
     "main.757d4fb3.css.map": "/michelle-scutti/static/css/main.757d4fb3.css.map",
-    "main.c4fb8074.js.map": "/michelle-scutti/static/js/main.c4fb8074.js.map"
+    "main.2e3ed925.js.map": "/michelle-scutti/static/js/main.2e3ed925.js.map"
   },
   "entrypoints": [
     "static/css/main.757d4fb3.css",
-    "static/js/main.c4fb8074.js"
+    "static/js/main.2e3ed925.js"
   ]
 }
