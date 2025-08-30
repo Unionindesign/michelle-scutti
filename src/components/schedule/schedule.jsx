@@ -7,13 +7,13 @@ import { Row, Col } from "react-materialize";
 //images
 // import Corepower from "../../images/cpylogo.png";
 import RaYogaLogo from "../../images/RaYogaLogo.gif";
+import WildYogiLogo from "../../images/WildYogiLogo.png";
 // import PurpleYogaLogo from "../../images/PurpleYogaLogo.png"; // <-- old Logo
-import PurpleYogaLogo from "../../images/PURPLE+YOGA_FINAL+2.png";
+// import PurpleYogaLogo from "../../images/PURPLE+YOGA_FINAL+2.png";
 // import Yogapod from "../../images/PurpleYogaLogo.png";
 //import LiveMusicYoga from "../../images/liveMusicYoga.png";
 // import ScheduleBackground from "../../images/cpyredrocks.png";
 // import logo from "../../images/logo-MichelleRose.png";
-
 
 const Schedule = () => {
   return (
@@ -26,7 +26,7 @@ const Schedule = () => {
           <Row>
             {" "}
             <Col l={5} s={12}>
-            {/* <div className="scheduleCard">
+              {/* <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
                   src={logo}
@@ -34,10 +34,10 @@ const Schedule = () => {
                 />
                 <p className="scheduleCardSpan">No public classes available at this time.</p>
             </div> */}
-                              
+
               {/* =========
                 COREPOWER
-              ============= */} 
+              ============= */}
               {/* <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
@@ -69,14 +69,11 @@ const Schedule = () => {
                 </div>
               </div>  */}
 
-             
-
-
-             {/* =========
+              {/* =========
                 PURPLE YOGA
               ============= */}
-              
-              <div className="scheduleCard">
+
+              {/* <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
                   style={{ margin: "-20px auto -20px auto"  }}
@@ -102,31 +99,69 @@ const Schedule = () => {
                   >
                     Huntington Beach Studio
                   </a>
-                  {/* <a
+                  <a
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://purpleyoga.org/long-beach-schedule/"
                   >
                     Long Beach
-                  </a> */}
+                  </a>
                 </div> 
-            </div>
+            </div> */}
 
-             {/* =========
+              {/* =========
                 RA YOGA
               ============= */}
               <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
-                  style={{ margin: "-20px auto -20px auto"  }}
+                  style={{ margin: "-20px auto -20px auto" }}
                   src={RaYogaLogo}
                   alt="ra yoga logo"
                 />
                 <p className="scheduleCardSpan">
-                  <strong>Tuesday - Costa Mesa</strong>
+                  <strong>Friday</strong>
                   <br />
-                  6:30am Intro to Level 2 
+                  5:30pm Intro to Level 2
+                  <br />
+                  7:30pm Hot Ra
+                </p>
+                <p className="scheduleCardSpan">
+                  <strong>Saturday</strong>
+                  <br />
+                  8:30am Hot Ra
+                  <br />
+                  10:00pm Intro to Level 2
+                </p>
+                <div className="cardFooter">
+                  <hr />
+                  <a
+                    className="cardFooterLink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://rayoga.com/locations/Mission-Viejo/"
+                  >
+                    Mission Viejo Studio
+                  </a>
+                </div>
+              </div>
+
+              {/* =========
+                The Wild Yogi
+              ============= */}
+              <div className="scheduleCard">
+                <img
+                  className="scheduleCardLogoImg"
+                  style={{ margin: "-20px auto -20px auto" }}
+                  src={WildYogiLogo}
+                  alt="wild yogi logo"
+                />
+
+                <p className="scheduleCardSpan">
+                  <strong>Saturday</strong>
+                  <br />
+                  12:00pm Heated Slow Flow
                   <br />
                 </p>
                 <div className="cardFooter">
@@ -135,29 +170,12 @@ const Schedule = () => {
                     className="cardFooterLink"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://rayoga.com/costa-mesa-studio/"
+                    href="https://www.thewildyogistudio.com/"
                   >
-                    Costa Mesa Studio
+                    Aliso Viejo Studio
                   </a>
-                  {/* <a
-                    className="cardFooterLink"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://rayoga.com/newport-beach-studio/"
-                  >
-                    Newport Beach
-                  </a>
-                  <a
-                    className="cardFooterLink"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://rayoga.com/long-beach-studio/"
-                  >
-                    Long Beach 
-                  </a> */}
-                </div> 
-            </div>
-
+                </div>
+              </div>
             </Col>
             <Col l={7} s={12}>
               <div className="scheduleCard" style={{ marginTop: "30px" }}>
