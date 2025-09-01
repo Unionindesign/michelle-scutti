@@ -125,14 +125,14 @@ const Schedule = () => {
                   <br />
                   5:30pm Intro to Level 2
                   <br />
-                  7:30pm Hot Ra
+                  7:30pm Hot Ra - Candlelit
                 </p>
                 <p className="scheduleCardSpan">
                   <strong>Saturday</strong>
                   <br />
                   8:30am Hot Ra
                   <br />
-                  10:00pm Intro to Level 2
+                  10:00am Intro to Level 2
                 </p>
                 <div className="cardFooter">
                   <hr />
