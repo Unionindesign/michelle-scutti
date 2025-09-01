@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/michelle-scutti/static/css/main.757d4fb3.css",
-    "main.js": "/michelle-scutti/static/js/main.2e3ed925.js",
+    "main.js": "/michelle-scutti/static/js/main.b879b816.js",
     "static/media/gal-wheelAspen.png": "/michelle-scutti/static/media/gal-wheelAspen.e75512394838dcb90354.png",
     "static/media/bio-beachParallax.png": "/michelle-scutti/static/media/bio-beachParallax.258f330b1e2ccb354bc2.png",
     "static/media/landing-costaTrees.png": "/michelle-scutti/static/media/landing-costaTrees.48a45c4ca2caca37fe8e.png",
@@ -24,10 +24,10 @@
     "static/media/iconOm.png": "/michelle-scutti/static/media/iconOm.d5fd1672d0b7bd616e0e.png",
     "index.html": "/michelle-scutti/index.html",
     "main.757d4fb3.css.map": "/michelle-scutti/static/css/main.757d4fb3.css.map",
-    "main.2e3ed925.js.map": "/michelle-scutti/static/js/main.2e3ed925.js.map"
+    "main.b879b816.js.map": "/michelle-scutti/static/js/main.b879b816.js.map"
   },
   "entrypoints": [
     "static/css/main.757d4fb3.css",
-    "static/js/main.2e3ed925.js"
+    "static/js/main.b879b816.js"
   ]
 }
