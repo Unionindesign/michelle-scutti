@@ -150,7 +150,7 @@ const Schedule = () => {
               {/* =========
                 The Wild Yogi
               ============= */}
-              <div className="scheduleCard">
+              {/* <div className="scheduleCard">
                 <img
                   className="scheduleCardLogoImg"
                   style={{ margin: "-20px auto -20px auto" }}
@@ -175,7 +175,7 @@ const Schedule = () => {
                     Aliso Viejo Studio
                   </a>
                 </div>
-              </div>
+              </div> */}
             </Col>
             <Col l={7} s={12}>
               <div className="scheduleCard" style={{ marginTop: "30px" }}>
